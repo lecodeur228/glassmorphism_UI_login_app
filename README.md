@@ -1,16 +1,5 @@
 # glassmorphism_app_ui_login
+![WhatsApp Image 2023-11-26 à 14 57 11_ffe78777](https://github.com/banarin/glassmorphism_UI_login_app/assets/92242447/0ae73257-8556-4715-a8b6-e60f54c858c2)
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2023-11-26 à 14 57 00_a75a01e5](https://github.com/banarin/glassmorphism_UI_login_app/assets/92242447/788e8284-5d2a-4c3a-89aa-731ab90b519c)
