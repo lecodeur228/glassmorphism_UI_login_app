@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:glassmorphism_app_ui_login/constants.dart';
 import 'package:glassmorphism_app_ui_login/screens/signIn_screen.dart';
+import 'package:glassmorphism_app_ui_login/screens/signup_screen.dart';
 import 'package:glassmorphism_app_ui_login/widgets/button_green_widget.dart';
 import 'package:glassmorphism_app_ui_login/widgets/button_widget.dart';
 import 'package:glassmorphism_app_ui_login/widgets/glassmorphism_widget.dart';
@@ -13,9 +15,9 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
             color: Colors.black.withOpacity(0.13),
-            image: const DecorationImage(
+            image: DecorationImage(
                 image: AssetImage(
-                  "assets/images/bg.jpg",
+                  Constants.background_image,
                 ),
                 fit: BoxFit.cover)),
         alignment: Alignment.center,
@@ -53,6 +55,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 InkWell(
                     onTap: () {
+                      // go to sign in screen
                       Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -62,7 +65,15 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                const ButtonWidget(text_button: "SIGN UP"),
+                InkWell(
+                    onTap: () {
+                      // go to sign up screen
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const SignupScreen()));
+                    },
+                    child: const ButtonWidget(text_button: "SIGN UP")),
               ],
             )),
       ),
